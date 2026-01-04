@@ -1,0 +1,71 @@
+body {
+    font-family: "fantasy", luminari;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(228, 245, 250);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:rgb(0, 0, 0);
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color:blue;
+}
+
+a:active {
+    color:blue;
+}
+
+.click {
+    color:yellow;
+}
+
+#playerDetails {
+    display:none;
+    margin-top:5px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    border:1px solid #215cff; 
+    border-radius:5px; 
+    background-color:#f5f7fa;
+}
+
+h2 {
+    text-align: center;
+}
+
+.playerSelected {
+    font-weight:bold;
+    background-color: #ffe08a;
+    padding:2px 6px;
+    border-radius:4px;
+}
+
+.playerNameDoubles {
+    color:red;
+}
+
+.playerNameSingles {
+    color: rgb(121, 0, 151);
+}
+
+a.p2Doubles {
+    background-color:rgb(250, 153, 153);
+}
+
+a.p2Singles {
+    background-color:rgb(186, 149, 255);
+}
